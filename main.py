@@ -6,10 +6,14 @@ class Usuario:
         self.contraseña = contraseña
 
     def __str__(self):
-        return f'Usuario: {self.nombre_usuario}'
+        return f'Usuario: {self.nombre_usuario} \nContraseña: {self.contraseña}'
 
 
 
 # Crea un objeto usando la clase:
 
 usuario1 = Usuario('ibon93', 'contraseñaSegura')
+
+# Impresión de prueba:
+
+print(usuario1)
